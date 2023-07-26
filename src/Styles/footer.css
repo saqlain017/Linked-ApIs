@@ -1,0 +1,17 @@
+.Footer{
+    background: black;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer p{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:400px) {
+    .Footer p{
+        font-size: 13px;
+    }
+}

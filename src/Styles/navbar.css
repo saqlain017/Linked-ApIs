@@ -1,0 +1,9 @@
+.navbar ul li a{
+    color: white !important;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color: blue !important;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+}

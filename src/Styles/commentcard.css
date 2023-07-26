@@ -1,0 +1,33 @@
+.CommentCard{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CommentCard .card{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px;
+    background: #c2c2c2;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    flex-direction: column;
+    gap: 15px;
+}
+.CommentCard .card-content{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    text-align: left;
+}
+@media screen and (max-width:400px){
+    .CommentCard .card{
+        min-width: 220px;
+        max-width: 220px;
+    }
+}

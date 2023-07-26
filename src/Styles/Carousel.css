@@ -1,0 +1,24 @@
+.myCarousel-item{
+    margin: 0 10%;
+}
+.myCarousel-item p{
+    font-size: 18px;
+    color: #2a2a2a;
+}
+.myCarousel-item a{
+    font-size: 20px;
+}
+.myCarousel-item a:hover{
+    text-decoration: underline !important;
+}
+@media screen and (max-width:992px) {
+    .myCarousel-item{
+        flex-wrap:wrap;
+        text-align: center;
+    }
+}
+@media screen and (max-width:552px){
+    .myCarousel-item p{
+        font-size: 14px;
+    }
+}
